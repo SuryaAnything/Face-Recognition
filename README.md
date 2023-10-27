@@ -29,12 +29,12 @@ This project demonstrates the implementation of a face recognition system using 
 
 * One crucial aspect of Siamese networks is that the twin networks share the same set of weights. This weight sharing ensures that the two networks learn to map inputs to embeddings in a consistent and compatible manner.
 
-![Siamese Architecture](image "https://www.google.com/url?sa=i&url=https%3A%2F%2Fdatahacker.rs%2Fone-shot-learning-with-siamese-neural-network%2F&psig=AOvVaw3vXxIdIYcvmP1EcPEuo6iI&ust=1697087803535000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKione-e7YEDFQAAAAAdAAAAABAE")
+[Siamese Architecture](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*hBJRs10uBc9a2Ol10N-jlg.png)
 
 ### Contrastive Loss
 This is the loss function used for learning the similarity function.
 
-![Loss formula](image "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*QE2ccvCNw6HOW85e.png")
+[Loss Formula](https://miro.medium.com/v2/resize:fit:1400/format:webp/0*QE2ccvCNw6HOW85e.png)
 
 where Dw is defined as the Euclidean distance between the outputs of the sister networks.
 Y is either 1 or 0. If the first image and second image are from the same class, then the value of Y is 0, otherwise, Y is 1
@@ -60,4 +60,4 @@ Y is either 1 or 0. If the first image and second image are from the same class,
 ## Result
 
 Our model produced an accuracy of 95.5% .
-![Sample Outputs](image "https://cdn.discordapp.com/attachments/1116080374360055923/1161292020875276348/face_rec.jpg?ex=6537c479&is=65254f79&hm=7986582a3a9349f8927abc5623c5e2846abb71c3b34897a085f2894ca0eb0568&")
+[Sample Outputs](https://cdn.discordapp.com/attachments/1116080374360055923/1161292020875276348/face_rec.jpg?ex=6537c479&is=65254f79&hm=7986582a3a9349f8927abc5623c5e2846abb71c3b34897a085f2894ca0eb0568&)
