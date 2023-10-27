@@ -11,7 +11,7 @@ This project demonstrates the implementation of a face recognition system using 
 
 2)With the knowledge of Gradient Descent Backpropagation Algorithm and other basics we implemented digit classifier 1 layer neural network using basic numpy module.
 
-3)Then we moved on with learning model optimization techniques like batch normalization and dropout to counter problems like overfitting, after which we implemented the same digit classifier model using pytorch framework.
+3)Then we moved on with learning model optimization techniques like batch normalization and dropout to counter problems like overfitting.
 
 4)Then, we learnt the working of Convolutional Neural Networks and studied various CNN Architectures.
 
