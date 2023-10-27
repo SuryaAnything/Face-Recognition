@@ -3,7 +3,7 @@ Face-Recognition using Siamese Network
 
 # Introduction
 
-This project demonstrates the implementation of a face recognition system using Siamese networks. Siamese networks are widely used in face recognition tasks because they can effectively measure the similarity between two images, making them ideal for verification and identification purposes.
+This project demonstrates the implementation of a face recognition system using Siamese networks. Siamese networks are widely used in face recognition tasks because they can effectively measure the similarity between two images, making them ideal for verification and identification purposes. During training of sample, Siamese networks aim to minimize the distance between feature vectors for similar input pairs and maximize the distance for dissimilar pairs. This is typically achieved by using a contrastive loss function.
 
 ## Approach
 
@@ -15,9 +15,7 @@ This project demonstrates the implementation of a face recognition system using 
 
 4)Then, we learnt the working of Convolutional Neural Networks and studied various CNN Architectures.
 
-5)With a good understanding of CNN's, after many trials, we built our own custom architecture on MNIST/CIFAR-10 Dataset that efficiently did the classification tasks.
-
-6)Finally we leant the concepts of Face Recognition and moved on with the implementation.
+5)Finally we leant the concepts of Face Recognition and moved on with the implementation.
 
 ## The Algorithm
 
